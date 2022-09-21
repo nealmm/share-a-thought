@@ -1,0 +1,23 @@
+{
+  "name": "share-a-thought",
+  "version": "1.0.0",
+  "description": "A simple social media site where users can share their thoughts and react to those of others",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nealmm/share-a-thought.git"
+  },
+  "author": "Matt Neal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nealmm/share-a-thought/issues"
+  },
+  "homepage": "https://github.com/nealmm/share-a-thought#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongoose": "^6.6.1"
+  }
+}
