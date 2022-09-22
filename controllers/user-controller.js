@@ -12,6 +12,8 @@ const userController = {
 
     getUserById(req, res) {
         User.findOne({ _id: req.params.id })
+            .populate('thoughts')
+            .populate('friends')
             .then(data => {
                 if (!data) {
                     res.status(404).json({ message: 'No user found with this ID' })
